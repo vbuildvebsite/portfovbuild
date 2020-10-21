@@ -1077,10 +1077,10 @@
                             <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 128</a></li>
                             <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">office@aria.com</a></li>
                         </ul>
-                        <h3>Follow Aria On Social Media</h3>
+                        <h3>Follow Us On Social Media</h3>
 
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="www.facebook.com">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
@@ -1098,7 +1098,7 @@
                             </a>
                         </span>
                         <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="www.instagram.com">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
@@ -1122,26 +1122,31 @@
                     <!-- Contact Form -->
                     <form id="contactForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
+                            <input type="text" class="form-control-input" id="name" required>
                             <label class="label-control" for="cname">Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
+                            <input type="email" class="form-control-input" id="email" required>
                             <label class="label-control" for="cemail">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group checkbox">
-                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <input type="tel" class="form-control-input" id="mob" required>
+                            <label class="label-control" for="cmob">Mobile Number</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <textarea class="form-control-textarea" id="message" required></textarea>
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+<!--                         <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                            <div class="help-block with-errors"></div>
+                        </div> -->
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button" onclick="sendEmail()">SUBMIT MESSAGE</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
@@ -1244,5 +1249,8 @@
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+<!-- Mailing Contact form response scripts -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/mail.js"></script>  
 </body>
 </html>
