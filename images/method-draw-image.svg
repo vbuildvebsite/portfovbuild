@@ -1,0 +1,19 @@
+<svg width="990.17" height="403.84" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}.cls-2{font-size:190.04px;letter-spacing:-0.02em;}.cls-2,.cls-3{font-family:TimesNewRomanPS-BoldMT, Times New Roman;font-weight:700;}.cls-3{font-size:184.74px;letter-spacing:0.1em;}</style>
+ </defs>
+ <title>Vbuild</title>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line id="svg_1" y2="403.84" x2="67.35" x1="67.35" class="cls-1"/>
+  <line id="svg_2" y2="403.84" x2="408.6" x1="408.6" class="cls-1"/>
+  <line x1="0" id="svg_3" y2="344.59" x2="475.95" y1="344.59" class="cls-1"/>
+  <line id="svg_4" y2="50.48" x2="475.95" y1="50.48" class="cls-1"/>
+  <text fill="#ffffff" id="svg_5" transform="translate(167.10000610351562,274.1700134277344) scale(1.2100000381469727,1) " class="cls-2">V</text>
+  <text fill="#ffffff" id="svg_6" transform="translate(471.8299865722656,269.7799987792969) scale(1.0299999713897705,1) " class="cls-3">build</text>
+ </g>
+</svg>
