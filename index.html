@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
-    <meta name="author" content="Inovatik">
+    <meta name="description" content="V-build - All in one solution for dynamic websites!">
+    <meta name="author" content="V-build">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
 	<meta property="og:site_name" content="" /> <!-- website name -->
@@ -72,7 +72,7 @@
                     <a class="nav-link page-scroll" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
+                    <a class="nav-link page-scroll" href="#inquire">INQUIRE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
@@ -103,7 +103,7 @@
                 <span class="fa-stack">
                     <a href="#your-link">
                         <span class="hexagon"></span>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
+                        <i class="fab fa-instagram fa-stack-1x"></i>
                     </a>
                 </span>
             </span>
@@ -240,7 +240,7 @@
                             <p class="price">Starting at <span>₹20000</span></p>
                         </div>
                         <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
+                            <a class="btn-solid-reg page-scroll" href="#inquire">DETAILS</a>
                         </div> <!-- end of button-container -->
                     </div>
                     <!-- end of card -->
@@ -266,7 +266,7 @@
                             <p class="price">Starting at <span>₹50000</span></p>
                         </div>
                         <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
+                            <a class="btn-solid-reg page-scroll" href="#inquire">DETAILS</a>
                         </div> <!-- end of button-container -->
                     </div>
                     <!-- end of card -->
@@ -292,7 +292,7 @@
                             <p class="price">Starting at <span>₹100000</span></p>
                         </div>
                         <div class="button-container">
-                            <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
+                            <a class="btn-solid-reg page-scroll" href="#inquire">DETAILS</a>
                         </div> <!-- end of button-container -->
                     </div>
                     <!-- end of card -->
@@ -584,12 +584,12 @@
 
 
     <!-- Call Me -->
-    <div id="callMe" class="form-1">
+    <div id="inquire" class="form-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <div class="section-title">CALL ME</div>
+                        <div class="section-title">INQUIRE</div>
                         <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
                         <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
                         <ul class="list-unstyled li-space-lg white">
@@ -630,18 +630,23 @@
                         <div class="form-group">
                             <select class="form-control-select" id="lselect" required>
                                 <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                <option class="select-option" value="Market Domination">Market Domination</option>
+                                <option class="select-option" value="Simple Static Website">Simple Static Website</option>
+                                <option class="select-option" value="Fully Dyanmic Website">Fully Dyanmic Website</option>
+                                <option class="select-option" value="Website with Analytics">Website with Analytics</option>
                             </select>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="lmessage" required></textarea>
+                            <label class="label-control" for="lmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>
+<!--                         <div class="form-group checkbox white">
+                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                            <div class="help-block with-errors"></div>
+                        </div> -->
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">CALL ME</button>
+                            <button type="submit" class="form-control-submit-button" onclick="sendEmail1()">SUBMIT</button>
                         </div>
                         <div class="form-message">
                             <div id="lmsgSubmit" class="h3 text-center hidden"></div>
@@ -902,8 +907,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+
                     <h2>Our Team</h2>
                     <p class="p-heading">We're only as strong and as knowledgeable as our team.</p>
+
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -914,8 +921,10 @@
                         <div class="image-wrapper">
                             <img class="img-fluid" style="border-radius: 20px;" src="images/HVP.jpg" alt="alternative">
                         </div> <!-- end of image-wrapper -->
+
                         <p class="p-large">Harsh Patel</p>
                         <p class="job-title">Designer & Frontend Developer</p>
+
                         <span class="social-icons">
                             <span class="fa-stack">
                                 <a href="#your-link">
@@ -926,6 +935,7 @@
                             <span class="fa-stack">
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
+
                                     <i class="fab fa-twitter fa-stack-1x"></i>
                                 </a>
                             </span>
@@ -951,12 +961,12 @@
                                 <a href="#your-link">
                                     <span class="hexagon"></span>
                                     <i class="fab fa-twitter fa-stack-1x"></i>
-                                </a>
+
+                                    <i class="fab fa-github fa-stack-1x"></i>
+                              </a>
                             </span>
                         </span>
                     </div> <!-- end of team-member -->
-                    <!-- end of team member -->
-
                     <!-- end of team member -->
 
                 </div> <!-- end of col -->
@@ -1003,6 +1013,7 @@
                             </div>
                             <div class="cell">
                                 <div class="counter-value number-count" data-count="3">1</div>
+
                                 <div class="counter-info">Good<br>Reviews</div>
                             </div>
                         </div>
@@ -1024,12 +1035,12 @@
                     <div class="text-container">
                         <div class="section-title">CONTACT</div>
                         <h2>Get In Touch Using The Form</h2>
-                        <p>You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries</p>
+                        <p>You can call us or use the contact form below for any questions and inquiries.</p>
                         <ul class="list-unstyled li-space-lg">
-                            <li class="address"><i class="fas fa-map-marker-alt"></i>22nd Innovative Street, San Francisco, CA 94043, US</li>
-                            <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 126</a></li>
-                            <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 128</a></li>
-                            <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">office@aria.com</a></li>
+                            <!-- <li class="address"><i class="fas fa-map-marker-alt"></i>22nd Innovative Street, San Francisco, CA 94043, US</li> -->
+                            <li><i class="fas fa-phone"></i><a href="tel:+918169461230">+91 8169461230</a></li>
+                            <li><i class="fas fa-phone"></i><a href="tel:+918297636089">+91 8297636089</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:vbuildvebsites@gmail.com">Mail us!</a></li>
                         </ul>
                         <h3>Follow Us On Social Media</h3>
 
@@ -1039,36 +1050,45 @@
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
+<!--                         <span class="fa-stack">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-twitter fa-stack-1x"></i>
                             </a>
-                        </span>
+                        </span> -->
+                        <span class="fa-stack">
+                            <a href="www.instagram.com">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>                        
+
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-pinterest fa-stack-1x"></i>
                             </a>
                         </span>
-                        <span class="fa-stack">
-                            <a href="www.instagram.com">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
+
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
+
                         <span class="fa-stack">
+                            <a href="#your-link">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-github fa-stack-1x"></i>
+                            </a>
+                        </span>
+<!--                         <span class="fa-stack">
                             <a href="#your-link">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-behance fa-stack-1x"></i>
                             </a>
-                        </span>
+                        </span> -->
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -1121,8 +1141,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="text-container about">
-                        <h4>Few Words About Aria</h4>
-                        <p class="white">We're passionate about delivering the best web app services for companies just starting out as startups or industry players that have established their market position a long time ago.</p>
+
+                        <h4>Few Words About V-build</h4>
+                        <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long time ago.</p>
+
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-md-2">
@@ -1184,7 +1206,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+
                     <p class="p-small">Copyright © 2020 `</p>
+
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
