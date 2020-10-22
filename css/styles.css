@@ -1754,6 +1754,11 @@ input[type="checkbox"] {
   line-height: 1.375rem;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /*************************/
 /*     18. Copyright     */
 /*************************/
